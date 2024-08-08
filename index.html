@@ -16,7 +16,12 @@
 
     <div>
         <h2>Cadastrar Livros na base de dados</h2>
-        <form action=""></form>
+        <form action="https://api-aula.up.railway.app/livros" method="POST">
+            <label for="title">Nome</label>
+            <input type="text" name="title">
+            <input placeholder="Descrição" type="text" name="description">
+            <button>Cadastrar Livro</button>
+        </form>
 
         <p>Este formulário irá enviar um comando POST</p>
         <p>Neste caso, pedir para a API guardar na base...</p>
